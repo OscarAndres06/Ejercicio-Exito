@@ -1,15 +1,15 @@
 package com.exito.runner;
 
+
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features ="src/test/resources/features/ProductoExito.feature",
-        glue = "com.exito.stepDefinitions",
+        features = "src/test/resources/features/ProductoExito.feature",
+        glue = "exito.stepDefinition.ArticuloStepDefinition",
         snippets = CucumberOptions.SnippetType.CAMELCASE
-
 )
 public class ExitoRunner {
 }

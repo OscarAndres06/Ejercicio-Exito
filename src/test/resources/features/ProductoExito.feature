@@ -1,4 +1,5 @@
 #language: es
+
 Característica: Seleccionar articulo al carrito de compras del exito
 
   Escenario: ingresar a la pagina del exito
